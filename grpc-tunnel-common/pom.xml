@@ -84,7 +84,7 @@
                     <pluginId>grpc-java</pluginId>
                     <pluginArtifact>io.grpc:protoc-gen-grpc-java:1.64.0:exe:${os.detected.classifier}</pluginArtifact>
                     <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
-                    <clearOutputDirectory>${project.basedir}/src/main/java/top/redjujubetree/tunnel/grpc</clearOutputDirectory>
+                    <clearOutputDirectory>true</clearOutputDirectory>
                 </configuration>
                 <executions>
                     <execution>
